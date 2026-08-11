@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #cfdef3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(0,0,0, 0.1);
+    text-align: center;
+}
+
+.tarjeta h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contador {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contador h2 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.grupo-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+ flex: 1;
+ padding: 12px 20px;
+ font-size: 16px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ color: #fff;
+}
+
+.incrementar {
+ background-color: #6a11cb;
+}
+
+.disminuir {
+ background-color: #ff416c;
+}
+
+.resetear {
+ background-color: #42f57e;
+}
+
+.btn:hover {
+ opacity: 0.8;
+}
