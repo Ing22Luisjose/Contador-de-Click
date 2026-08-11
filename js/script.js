@@ -27,5 +27,8 @@ function ActualizarContador() {
     mostrarValorContador.textContent = contador;
 }
 
+const botonCambiarTema = document.getElementById("cambiar_tema");
 
-
+botonCambiarTema.addEventListener("click", function cambiarTema() {
+    document.body.classList.toggle("tema-oscuro");
+});
