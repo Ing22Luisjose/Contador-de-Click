@@ -66,3 +66,25 @@ body {
 .btn:hover {
  opacity: 0.8;
 }
+
+.cambiar-tema {
+ background-color: #333;
+}
+
+body.tema-oscuro {
+    background-color: #1a1a2a;
+}
+
+body.tema-oscuro .tarjeta {
+    background-color: #16213e;
+    color: #fff;
+}
+
+body.tema-oscuro .tarjeta h1,
+body.tema-oscuro .contador h2 {
+    background-color: #fff;
+}
+
+body.tema-oscuro .contador {
+    background-color: #0f3460;
+}
